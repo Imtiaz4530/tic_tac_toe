@@ -1,0 +1,65 @@
+/* Game Wrapper */
+.game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  gap: 100px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Game Board Styling */
+.game-board {
+  margin-top: 10px;
+}
+
+/* Board Row Styling */
+.board-row {
+  display: flex;
+}
+
+/* Individual Square Styling */
+.square {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #789dbc;
+  border: 2px solid #333;
+  transition: background-color 0.3s ease;
+}
+
+.square:hover {
+  background-color: #e0e0e0;
+}
+
+/* Status and Reset Button */
+.status {
+  font-size: 1.2rem;
+  color: #666;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #555;
+}

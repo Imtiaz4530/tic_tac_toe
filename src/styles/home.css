@@ -1,0 +1,14 @@
+.home-page button {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  color: #ffffff;
+  background-color: #3a3a3a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-page button:hover {
+  background-color: #575757;
+}

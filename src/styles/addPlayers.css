@@ -1,0 +1,38 @@
+.add-players-page input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #333333;
+  border: 1px solid #555555;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.add-players-page button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  color: #ffffff;
+  background-color: #3a3a3a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 5px;
+}
+
+.add-players-page button:hover {
+  background-color: #575757;
+}
+
+@media (max-width: 768px) {
+  .add-players-page {
+    margin: 0 20px;
+  }
+
+  .add-players-page h2 {
+    font-size: 25px;
+  }
+}
